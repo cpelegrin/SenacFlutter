@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:teste/aula07_06.dart';
+import 'package:teste/complex_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: TextStyle(color: Colors.white, fontSize: 20),
         ),
       ),
-      home: const Aula07_06(),
+      home: TableComplexExample(),
     );
   }
 }
